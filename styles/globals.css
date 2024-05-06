@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Montserrat:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  scroll-behavior: smooth;
+  background-color: var(--colors-primary);
+}
+.no-scroll{
+  overflow-y: hidden
+}
+/* Scrollbar */ 
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color:inherit;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+@layer utilities {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+  }
+/* Katex */
+.katex{
+  overflow-x: scroll;
+  z-index: 20;
+  max-width: 100%;
+  line-height: 1.2;
+  white-space: normal;
+  text-indent: 0;
+}
+/* Heading Links */
+.icon-link{
+  display: inline-block;
+  mask-image: url('/link.svg');
+  -webkit-mask-image: url(/link.svg);
+  width: 16px;
+  height: 16px;
+  margin-left: 0.3rem;
+  mask-size: cover;
+  @apply bg-black dark:bg-white 
+}
+
+h1 #wrapper,
+h2 #wrapper,
+h3 #wrapper,
+h4 #wrapper,
+h5 #wrapper,
+h6 #wrapper
+{
+  visibility: hidden;
+}
+h1:hover #wrapper,
+h2:hover #wrapper,
+h3:hover #wrapper,
+h4:hover #wrapper,
+h5:hover #wrapper,
+h6:hover #wrapper
+{
+  visibility: visible;
+}
+/* Table of Contents */
+.toc{
+  @apply rounded-xl p-3 mb-3 outline 
+}
+.toc p{
+  @apply text-light-secondary text-2xl m-0
+}
+.toc-level-1{
+  @apply top-0 relative p-0 m-0
+}
+.toc ol{
+  @apply list-none 
+}
+.toc li a{
+@apply no-underline ml-2 hover:underline underline-offset-2
+
+}
+.toc span {
+  border-bottom: 1px solid;
+    border-left: 1px solid;
+    height: 1.5rem;
+    width: 2rem;
+    display: inline-block;
+    margin-bottom: 0.3rem;
+    margin-left: 1rem;
+}
+
