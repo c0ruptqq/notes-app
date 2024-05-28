@@ -29,7 +29,7 @@ In 2D, if vectors a and b are non-parallel then you can compare their coefficien
 In 3D the equivalent idea says that if vectors a, b and c are not co-planar (ie. don’t all lie in the same plane) then you can compare their coefficients on both sides of an equation. For example, $3a + 4b – 5c = xa + yb + zc$ then $x = 3$, $y = 4$ and $z = –5$.
 
 #### Example 12.2
-![public/img/Pasted image 20240506181519.png](/img/math/year2/22.png)
+![public/img/Pasted image 20240506181519.png](img/math/book-2/22.png)
 
 #### Solution 12.2
 If OE and BG intersect then call the point of intersection X. Strategy: Find two routes of $\vec{OX}$ and equate them

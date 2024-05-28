@@ -11,7 +11,7 @@ We consider their horizontal and their vertical motion separately. The only forc
 A particle is projected horizontally at 20 $ms^{-1}$ from a point 65$m$ above the horizontal ground. Find the horizontal distance travelled by the particle before it hits the ground.
 
 #### Solution 4.2
-![](/img/math/year2/15.jpeg)
+![](15.jpeg)
 
 ## 4.2 Projection at any angle
 #### Example 4.2
@@ -20,4 +20,14 @@ A particle $P$ is projected from a point $2 m$ above a horizontal plane with an 
 2) the horizontal distance travelled by P before it hits the ground.
 
 #### Solution 4.2
-![](/img/math/year2/21.jpeg)
+![](21.jpeg)
+
+## 4.3 General Formulae for Projectile Motion
+#### Example 4.3
+A particle is projected from a point with speed $U$, at an angle of elevation $\alpha$, and moves freely under gravity. When the particle has moved a horizontal distance $x$, its height above the point of projection is $y$.
+1) show that $y=x\tan \alpha-\frac{gx^2}{2U^2}(1+\tan^2\alpha)$
+A particle is projected from a point $O$ on a horizontal plane with speed $28ms^{-1}$ at an angle of elevation $\alpha$. The particle passes through a point $B$, which is at a horizontal distance of $32 m$ from $O$ and at a height of $8 m$ above the plane.
+2) Find the two possible values of $\alpha$, giving your answers to the nearest degree.
+
+#### Solution 4.3
+
