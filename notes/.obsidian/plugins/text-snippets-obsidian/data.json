@@ -1,0 +1,14 @@
+{
+  "snippets_file": "alg : $$\\begin{aligned}$tb$\\end{aligned}$$",
+  "snippets": [
+    "alg : $$\\begin{aligned}$tb$\\end{aligned}$$"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

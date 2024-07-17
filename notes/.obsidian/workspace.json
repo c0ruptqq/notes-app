@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "eeefab58e4d1b435",
+    "type": "split",
+    "children": [
+      {
+        "id": "141999b0f73fe57e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cd8bfe1e598507c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Igor/Notes/Spectrometry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f7adb9fced395c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/Misc/Glossary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f11168be56fddcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c795bf3239f37876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/Entropy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e02ddac8c049280f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "17c26267d1e060f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/Alcohols.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6432e303e198a36c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/TODO/ToDo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5395d148e8a262e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb21b6fb85d0c443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d94a9ddcd61546a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a962f4db2299124",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6613c9dec1a835fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "01b659c875435efd",
+    "type": "split",
+    "children": [
+      {
+        "id": "440df36b8057b497",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d797dbd5d3eebce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "chemistry/Alcohols.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "98cc8becf8630878",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "chemistry/Alcohols.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "942b6895d4833065",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "51cd8dfc7f8c4b61",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "chemistry/Alcohols.md"
+              }
+            }
+          },
+          {
+            "id": "f9c936f3ce33ef83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/TODO/ToDo.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "17c26267d1e060f5",
+  "lastOpenFiles": [
+    "chemistry/Organic/Alcohols.md",
+    "chemistry/Alcohols.md",
+    "chemistry/Kinetics/Maxwell-Boltzmann Distribution.md",
+    "chemistry/Kinetics/Kinetics.md",
+    "chemistry/Kinetics/Equilibrium Constant.md",
+    "chemistry/Kinetics/Equilibrium.md",
+    "chemistry/Misc/Glossary.md",
+    "chemistry/Misc/Feedback.md",
+    "chemistry/Organic/Organic Tests.md",
+    "chemistry/Organic/Haloalkanes.md",
+    "chemistry/Spectrometry.md",
+    "chemistry/NMR.md",
+    "chemistry/Moles_of_solution.md",
+    "chemistry/Mole.md",
+    "chemistry/Isotopes.md",
+    "chemistry/Ions.md",
+    "chemistry/Ionisation.md",
+    "chemistry/Intermolecular_Forces.md",
+    "chemistry/Haloalkanes.md",
+    "chemistry/Glossary.md",
+    "chemistry/Feedback.md",
+    "chemistry/Entropy.md",
+    "chemistry/Electronegativity.md",
+    "chemistry/Electron_Structure.md",
+    "chemistry/Chromatography.md",
+    "chemistry/Born-Haber cycles.md",
+    "Igor/Img/Spectroscopy8.jpg",
+    "Igor/Img/Spectroscopy7.jpg",
+    "Pasted image 20240607120326.png",
+    "Igor/Img/Spectroscopy12.jpg",
+    "Igor/Img/Spectroscopy13.jpg",
+    "Igor/Img/Spectroscopy11.jpg",
+    "Igor/Img/Spectroscopy10.jpg",
+    "Igor/Img/Spectroscopy9.jpg",
+    "Igor/Img/Spectroscopy6.jpg",
+    "Igor/Img/Spectroscopy15.jpg",
+    "Igor/Img/Spectroscopy2.jpg.sb-690ddcbe-cCjGLU",
+    "Igor/Notes",
+    "Igor/Img",
+    "Igor",
+    "img/phys",
+    "img/math/book-2",
+    "img/math/stats",
+    "img/math",
+    "img/chem_igor",
+    "img/chem"
+  ]
+}
