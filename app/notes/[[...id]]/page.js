@@ -1,6 +1,6 @@
 import { getPostData, getPathList } from "@/lib/posts"
 import path from 'path';
-const DOCS_ROOT = path.join(process.cwd(), '/notes');
+const DOCS_ROOT = path.join(process.cwd(), '/content');
 const pageFileCache = {};
 
 
