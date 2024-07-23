@@ -8,7 +8,6 @@ export default async function Page({ params }) {
   let paths = await getPathList(DOCS_ROOT, DOCS_ROOT, pageFileCache);
   let slugPath;
   if (params.id) {
-    console.log(decodeURIComponent(params.id))
     slugPath = decodeURIComponent(params.id.join('/'))
   } else {
     slugPath = '';
@@ -21,7 +20,8 @@ export default async function Page({ params }) {
     <>
       <div className='prose prose-l p-5 mx-auto dark:prose-invert'>
         <h1 className='mt-28'>{postData.title}</h1>
-        <div className='m-3'>/{params.id}/</div>
+        <div className='m-3'>/{slugPath}/</div>
+        <div className='m-3'>Tags: {postData.tags}</div>
         <div className='' dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </div>
     </>
