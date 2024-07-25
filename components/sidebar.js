@@ -12,7 +12,7 @@ export default function Sidebar() {
       {/*Check if its at home route§*/}
       {pathname === '/' ? <div />
         :
-        <div className="fixed top-0 z-30">
+        <div className="z-30">
           <NavMobile />
           <NavDesktop />
         </div>

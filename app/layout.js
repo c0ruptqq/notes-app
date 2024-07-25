@@ -1,9 +1,8 @@
 import "@/styles/globals.css";
-import Theme from "@/components/theme";
-import Sidebar from "@/components/sidebar";
 import { Provider } from "./provider";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
+import Header from "@/components/header";
 
 export const metadata = {
   title: "MD Notes",
@@ -21,8 +20,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="min-h-screen" >
         <Provider themeProps={{ attribute: "class" }}>
-          <Theme />
-          <Sidebar />
+         <Header />
           <SpeedInsights />
           <Analytics />
           {/*   <Graph /> Temporalily disabled*/}

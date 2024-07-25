@@ -1,4 +1,7 @@
 ---
 title: Baryons
-tags: physics, year-1
+tags:
+  - physics
+  - test
+  - test1
 ---

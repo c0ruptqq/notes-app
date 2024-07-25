@@ -5,6 +5,8 @@ import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 import Link from "next/link";
 import Search from "@/components/search";
+import UserBox from "@/components/auth/userBox";
+
 export default function Home({ }) {
   const [isActive, setIsActive] = useState(false);
   const inputRef = useRef(null)
@@ -85,6 +87,7 @@ export default function Home({ }) {
       <div className='w-full flex justify-center pt-3' >
         <div className="w-3/6">
           <Search size={14} inputRef={inputRef} isOpen={isActive} close={toggleSearch} />
+          <UserBox />
         </div>
       </div>
       <div className="flex ml-20 xl:ml-80  select-none">

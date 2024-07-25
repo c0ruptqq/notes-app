@@ -1,16 +1,17 @@
 'use client'
 import { searchInJSON } from "@/lib/search";
 import { useRouter } from "next/navigation";
-import { Input } from "@nextui-org/input";
 import React, { useState } from "react";
-import { FaSearch } from "react-icons/fa";
+import { Input } from "@/components/ui/input"
+import { useAuth } from "@/app/context/AuthContext";
 
 export default function Search({ size, inputRef, isOpen, close }) {
   const [searchResults, setSearchResults] = useState([]);
   const [value, setValue] = useState("");
   const router = useRouter()
+  const { user } = useAuth()
   const handleSearch = (value) => {
-    const results = searchInJSON(value, { caseSensitive: true, partialMatch: true });
+    const results = searchInJSON(value, { caseSensitive: true, partialMatch: true }, user);
     setSearchResults(results);
   }
   return (
@@ -18,31 +19,11 @@ export default function Search({ size, inputRef, isOpen, close }) {
       <div className="m-3 w-full">
         {/*Input Bar*/}
         <Input
+          placeholder="⌘k"
           ref={inputRef}
-          onValueChange={setValue}
           value={value}
-          type="input"
-          onChange={(e) => handleSearch(e.target.value)}
+          onChange={(e) => {handleSearch(e.target.value); setValue(e.target.value)}}
           variant="faded"
-          startContent={
-            <FaSearch size={size} />
-          }
-          endContent={
-            <div>
-              {/*End of line Keybind test*/}
-              {!isOpen
-                ?
-                (
-                  <div className="flex items-center">
-                    <span className="text-2xl">⌘</span>
-                    <span className="text-xl">k</span>
-                  </div>
-                )
-                :
-                (<span>esc</span>)
-              }
-            </div>
-          }
         />
         <div className="bg-white dark:bg-black max-h-[30rem] overflow-auto rounded-xl mt-3">
           <ul>
