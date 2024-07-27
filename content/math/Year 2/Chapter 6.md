@@ -4,11 +4,17 @@ title: Chapter 6
 links: [[notes/math/Year 2/Book 2 Index]]
 # Trig Functions
 ## 6.1 Sec, Cosec and Cot
-$$\sec \theta \equiv \frac 1 {\cos \theta}$$
+$$
+\sec \theta \equiv \frac 1 {\cos \theta}
+$$
 
-$$\csc \theta \equiv \frac 1 {\sin \theta}$$
+$$
+\csc \theta \equiv \frac 1 {\sin \theta}
+$$
 
-$$\cot \theta \equiv \frac 1 {\tan \theta}$$
+$$
+\cot \theta \equiv \frac 1 {\tan \theta}
+$$
 
 ![img/math/book-2/8.png](/img/math/book-2/8.png)
 

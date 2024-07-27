@@ -1,5 +1,7 @@
 ---
 title: Netherlands Universities
+tags:
+  - private
 ---
 
 ## Universities

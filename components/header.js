@@ -14,7 +14,7 @@ export default function Header() {
         <>
         {pathname === '/' ? <div />
           :
-        <div className="h-28 w-screen flex flex-row justify-between p-4">
+        <div className="h-28 w-screen flex flex-row justify-between p-4 fixed">
             <NavMobile />
             <NavDesktop />
             <ModeToggle className='h-16 w-16'/>

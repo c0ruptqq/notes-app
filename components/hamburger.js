@@ -1,16 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-export default function Hamburger() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  
-  const handleClick = () => {
-      setIsOpen(!isOpen);
-  };
+export default function Hamburger({isOpen}) {
 
 return(
     
-  <button onClick={handleClick} 
+  <button
   className="flex flex-col justify-center items-center">
     <span className={`block bg-black dark:bg-white transition-all duration-300 ease-out 
                     h-2 w-6 rounded-sm ${isOpen ? 

@@ -4,76 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "141999b0f73fe57e",
+        "id": "40e84b52610f8982",
         "type": "tabs",
-        "dimension": 42.382495948136146,
         "children": [
           {
-            "id": "2cd8bfe1e598507c",
+            "id": "42975b5d500001b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Igor/Notes/Spectrometry.md",
+                "file": "chemistry/year1/Index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1f7adb9fced395c9",
+            "id": "5799c5ad211ce529",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/bosons.md",
+                "file": "chemistry/year1/16 Synthesis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc74a16e67b08d00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/year1/14 Alcohols.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6470e4d5f245c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chemistry/year1/Index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "fb182b07145f17f2",
-        "type": "tabs",
-        "dimension": 57.617504051863854,
-        "children": [
-          {
-            "id": "f9c936f3ce33ef83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Igor/Notes/Spectrometry.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6a2d967be6f6ee7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Igor/Img/Spectroscopy7.jpg"
-              }
-            }
-          },
-          {
-            "id": "7b6a3e2b7648d0f4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Igor/Img/Spectroscopy8.jpg"
-              }
-            }
-          }
-        ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/bosons.md",
+                "file": "chemistry/year1/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physics/bosons.md",
+                "file": "chemistry/year1/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,11 +162,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physics/bosons.md"
+                "file": "chemistry/year1/Index.md"
               }
             }
+          },
+          {
+            "id": "e71e10bbc7b4f288",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -197,14 +189,49 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1f7adb9fced395c9",
+  "active": "e6470e4d5f245c3f",
   "lastOpenFiles": [
-    "physics/Baryons.md",
-    "chemistry/NMR.md",
-    "Igor/Notes/Spectrometry.md",
+    "LOWER 6th Revision plan 2024.md",
+    "chemistry/year1/16 Synthesis.md",
+    "chemistry/year1/14 Alcohols.md",
+    "chemistry/year1/13 Alkenes.md",
+    "chemistry/year1/6 Shapes of molecules and intermolecular forces.md",
+    "chemistry/year1/7 Periodicity.md",
+    "chemistry/year1/8 Reactivity Trends.md",
+    "chemistry/year1/3 Amount of substance.md",
+    "chemistry/year1/2 Atoms ions compounds.md",
+    "chemistry/year1/Index.md",
+    "chemistry/year1/12 Alkanes.md",
+    "chemistry/year1/11 Concepts of Organic.md",
+    "chemistry/year1/10 Reaction Rates  and Equilibrium.md",
+    "chemistry/year1/9 Enthalpy.md",
+    "chemistry/year1/5 Electrons and Bonding.md",
+    "chemistry/year1/4 Acids and Redox.md",
+    "LOWER 6th Revision plan 2024.docx",
+    "L6 Autumn Term Revision Focus .md",
+    "L6 Autumn Term Revision Focus .docx",
+    "chemistry/year1/().md",
+    "Attachments/Attachment.png",
+    "Attachments",
+    "physics/year1/Index.md",
+    "physics/year1",
+    "chemistry/year1",
+    "chemistry/year 1/Alcohols.md",
+    "physics/year 1/Baryons.md",
+    "chemistry/year 1",
+    "physics/year 1/Circular motion.md",
+    "physics/year 1",
+    "physics/year 1/bosons.md",
+    "personal/webdev/Feedback.md",
+    "personal/webdev/DevLog.md",
+    "personal/universities/Netherlands.md",
+    "Pasted image 20240513150119.png",
     "Igor/Img/Spectroscopy8.jpg",
     "Igor/Img/Spectroscopy12.jpg",
     "Igor/Img/Spectroscopy7.jpg",
@@ -213,40 +240,8 @@
     "Igor/Img/Spectroscopy10.jpg",
     "Igor/Img/Spectroscopy9.jpg",
     "Igor/Img/Spectroscopy6.jpg",
-    "physics/Simple Harmonic Motion.md",
-    "chemistry/Born-Haber cycles.md",
-    "Igor/Img/Spectroscopy15.jpg",
-    "Igor/Img/0-02-05-32fdf9c43b17710a0c51217dd2ad2f5ef184c790a4e4aca5a1b958dbef8ac08e_2a026f8df85.jpg",
-    "math/Year 2/Chapter 11.md",
-    "partial fractions.md",
-    "math/Year 2/Chapter 9.md",
-    "math/Year 2/Chapter 8.md",
-    "math/Year 2/Chapter 10.md",
-    "math/MIsc/Feedback.md",
-    "math/Year 2/Chapter 6.md",
     "Igor/Img/Spectroscopy2.jpg.sb-690ddcbe-cCjGLU",
     "Igor/Notes",
-    "Igor/Img",
-    "Igor",
-    "physics/Resistor Capacitor Circuits.md",
-    "img/phys",
-    "img/math/book-2",
-    "img/math/stats",
-    "img/math",
-    "img/chem_igor",
-    "img/chem",
-    "math/Year 2/Mechanics/Chapter 8.md",
-    "math/Year 2/Chapter 12.md",
-    "chemistry/Moles_of_solution.md",
-    "chemistry/Mole.md",
-    "chemistry/Feedback.md",
-    "physics/Linearisation with Log.md",
-    "chemistry/Misc/Glossary.md",
-    "math/Year 2/Mechanics/Chapter 6.md",
-    "math/stats/Hypothesis testing for zero correlation.md",
-    "SchoolMisc/Exams.md",
-    "personal/TODO/ToDo.md",
-    "personal/universities/Netherlands.md",
-    "personal/webdev/DevLog.md"
+    "Igor/Img"
   ]
 }

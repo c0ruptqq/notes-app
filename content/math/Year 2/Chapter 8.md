@@ -12,9 +12,13 @@ the parameter.
 Find a Cartesian equation for the parametric curve $x=5t$, $y=3t^2$ $(0<t<20)$, stating its domain
 
 #### Solution 8.1
-$$x = 5t => t= \frac x 5$$
+$$
+x = 5t => t= \frac x 5
+$$
 
-$$\begin {aligned} \therefore y &=3(\frac x 5)^2 \text{ for } 0< \frac x 5 < 20 \\ & = \frac {3x^2} {25} \text{ for } 0<x<100 \end{aligned}$$
+$$
+\begin {aligned} \therefore y &=3(\frac x 5)^2 \text{ for } 0< \frac x 5 < 20 \\ & = \frac {3x^2} {25} \text{ for } 0<x<100 \end{aligned}
+$$
 
 For parametric equations involving trig functions, if you can't find a simple way to link x and y, use an appropriate trig identity.
 
@@ -23,11 +27,17 @@ Find the Cartesian equation of the curve $x=\sin t + 2$, $y=\cos t -3$
 
 #### Solution 8.2
 
-$$x=\sin t => \sin t = x-2$$
+$$
+x=\sin t => \sin t = x-2
+$$
 
-$$y = \cos t -3 => \cos t =y+3$$
+$$
+y = \cos t -3 => \cos t =y+3
+$$
 
-$$\therefore \cos^2 t\sin^2 t = 1 => (x-2)^2 + (y+3)^2 = 1$$
+$$
+\therefore \cos^2 t\sin^2 t = 1 => (x-2)^2 + (y+3)^2 = 1
+$$
 
 
 ## 8.2 Working with Parametric Equations
@@ -50,20 +60,32 @@ $\therefore a= -\frac {1} {2}$
 
 b) @ A and B $x=0$
 
-$$\therefore - \frac {1} {2} t^2 + t=0$$
-$$t(- \frac {1}{2}t+1)=0$$
-$$@t=0 \text{ } y=- \frac {1}{2}(8)=-4$$
+$$
+\therefore - \frac {1} {2} t^2 + t=0
+$$
+$$
+t(- \frac {1}{2}t+1)=0
+$$
+$$
+@t=0 \text{ } y=- \frac {1}{2}(8)=-4
+$$
 
-$$@t=2 \text{ } y=- \frac {1}{2}(16)=-8$$
+$$
+@t=2 \text{ } y=- \frac {1}{2}(16)=-8
+$$
 
-$$\therefore A=(0,4) \text{ } B=(0,-8)$$
+$$
+\therefore A=(0,4) \text{ } B=(0,-8)
+$$
 
 #### Example 8.4
 A curve is given parametrically by the equations $x=t^2$, $y=4t$. The line $x+y+4=0$ meets the curve at A. Find the coordinates of A.
 
 #### Solution 8.4
 
-$$\begin{aligned}x=t^2 \\ y=4t \\x+y+4=0 \\ t^2+4t+4=0 \\ t=-2 \\ \therefore @t=-2 \text{ } & x=4 \\ &y=-8 \\ \therefore A=(4,-8)\end{aligned}$$
+$$
+\begin{aligned}x=t^2 \\ y=4t \\x+y+4=0 \\ t^2+4t+4=0 \\ t=-2 \\ \therefore @t=-2 \text{ } & x=4 \\ &y=-8 \\ \therefore A=(4,-8)\end{aligned}
+$$
 
 
 ## 8.3 Finding Areas under Parametric Curves
@@ -74,4 +96,6 @@ Work out the area bounded by the x-axis, the y-axis, the line $x = 20$ and the p
 
 #### Solution 8.5
 It is important to change the limits when integrating by substituting them into the $x=...$ equation the taking the results for the new limits.
-$$\begin{aligned}\text{Area} &= \int^{20}_0ydx \\ &=\int^2_0y\frac{dx}{dt}dt \\ &=\int^2_0t^3*10t dt \\ &=\int^2_0 10t^4 dt \\ &=[2t^5]^2_0 \\ &=64\text{ units}^2\end{aligned}$$
+$$
+\begin{aligned}\text{Area} &= \int^{20}_0ydx \\ &=\int^2_0y\frac{dx}{dt}dt \\ &=\int^2_0t^3*10t dt \\ &=\int^2_0 10t^4 dt \\ &=[2t^5]^2_0 \\ &=64\text{ units}^2\end{aligned}
+$$

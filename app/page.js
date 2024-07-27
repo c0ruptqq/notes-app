@@ -1,13 +1,13 @@
 'use client'
 import { useEffect, useRef, useState } from "react";
 import data from '@/json/sidebar'
-import { IoIosArrowDown } from "react-icons/io";
-import { IoIosArrowUp } from "react-icons/io";
-import Link from "next/link";
 import Search from "@/components/search";
 import UserBox from "@/components/auth/userBox";
+import { useAuth } from "@/app/context/AuthContext";
+import { genList } from "@/lib/genList";
 
 export default function Home({ }) {
+  const { isLoggedIn } = useAuth();
   const [isActive, setIsActive] = useState(false);
   const inputRef = useRef(null)
   useEffect(() => {
@@ -38,34 +38,6 @@ export default function Home({ }) {
     setIsActive(!isActive);
     console.log("changed")
   };
-  function genList(node) {
-    if (node.children && node.children.length > 0) {
-      return (
-        <div key={node.name} className="m-7 text-2xl">
-          <div className='mt-6 hover:underline underline-offset-8 flex items-center'>
-            {
-              showMe.includes(node.name) ? <IoIosArrowUp />
-                : <IoIosArrowDown />
-            }
-            <h1 className='select-none' onClick={() => setCurrent(`${node.name}`)}>{node.name}/</h1>
-          </div>
-          <ul className="ml-4">
-            {node.children.map(child =>
-              (showMe.includes(node.name)) && genList(child))}
-          </ul>
-        </div>
-      )
-
-    } else {
-      return (
-        <li key={node.route} className='mt-2' >
-          <Link href={`/${node.route}`} >
-            <h1 className='hover:underline'>{node.name}</h1>
-          </Link>
-        </li>
-      )
-    }
-  }
 
   const [showMe, setShowMe] = useState([]);
   const setCurrent = index => {
@@ -92,9 +64,9 @@ export default function Home({ }) {
       </div>
       <div className="flex ml-20 xl:ml-80  select-none">
         <div className="flex flex-col text-3xl mt-10">
-          {data.map((item) => (
-            genList(item)
-          ))}
+        {data.map((item) => (
+                    genList(item, showMe, setCurrent, isLoggedIn)
+                  ))}
 
         </div >
       </div>

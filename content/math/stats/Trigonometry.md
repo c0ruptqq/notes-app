@@ -4,13 +4,19 @@ date: '2023-10-01'
 ---
 
 Sine Rule:
-$$\frac {sinA}{a} = \frac {sin B} {b} = \frac {sinC} {c}$$
+$$
+\frac {sinA}{a} = \frac {sin B} {b} = \frac {sinC} {c}
+$$
 
 Cosine Rule:
-$$a^2=b^2+c^2 -2bcCos(A)$$
+$$
+a^2=b^2+c^2 -2bcCos(A)
+$$
 
 Area of triangle:
-$$\frac 1 2 bcSin(C)$$
+$$
+\frac 1 2 bcSin(C)
+$$
 
 The following shows standard Sin Cos and Tan graphs. Note that in teh Tan graph while the curves get close to the assymptotes at 90 and 270 they will never touch.
 
@@ -33,5 +39,9 @@ Using the unit circel some key agnles can be shown:
 
 From the unit circle two basic trigonometric idneties can be seen:
 
-$$cos^2\theta + sin^2\theta \equiv 1$$
-$$tan\theta \equiv \frac {sin\theta} {cos\theta} \text{ where } cos\theta \neq 0$$
+$$
+cos^2\theta + sin^2\theta \equiv 1
+$$
+$$
+tan\theta \equiv \frac {sin\theta} {cos\theta} \text{ where } cos\theta \neq 0
+$$

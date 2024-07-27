@@ -160,13 +160,24 @@ function fromMarkdown(opts: FromMarkdownOptions = {}) {
         };
       }
     } else {
-      wikiLink.data.hName = "a";
-      wikiLink.data.hProperties = {
-        className: classNames,
-        href: hrefTemplate(link) + headingId,
-      };
-      wikiLink.data.hChildren = [{ type: "text", value: displayName }];
-    }
+      wikiLink.data.hName = "span";
+    wikiLink.data.hProperties = {
+      className: `inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 ${classNames}`,
+      "data-href": hrefTemplate(link) + headingId,
+    };
+    wikiLink.data.hChildren = [
+      { 
+        type: "element",
+        tagName: "a",
+        properties: {
+          href: hrefTemplate(link) + headingId,
+          className: "text-inherit no-underline",
+          style: "text-decoration: none !important;",
+        },
+        children: [{ type: "text", value: displayName }]
+      }
+    ];
+  }
   }
 
   return {

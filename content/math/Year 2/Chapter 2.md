@@ -19,7 +19,9 @@ When asked to solve an equation (and even more so with inequalities) that involv
 #### Example 2.2
 Solve:
 
-$$|4x|=|3x+2|$$
+$$
+|4x|=|3x+2|
+$$
 #### Solution 2.2
 ![3.jpeg](/img/math/book-2/3.jpeg)
 
@@ -49,7 +51,9 @@ We can combine functions to make new ones called *composite functions*. If $f$ a
 Let $f(x) = 2x+1$ and $g(x)=x^2-4$ find $fg(x)$
 #### Solution 2.5
 
-$$\begin{aligned} fg(x) & = f(x^2-4) \\ &= 2(x^2-4) +1 \\ &= 2x^2 -8 +1\\&= 2x^2-7 \end{aligned}$$
+$$
+\begin{aligned} fg(x) & = f(x^2-4) \\ &= 2(x^2-4) +1 \\ &= 2x^2 -8 +1\\&= 2x^2-7 \end{aligned}
+$$
 
 ## Inverse Functions
 The inverse function of $f$ (called $f^{-1}$) 'undoes' the function so doing $f$ and $f^{-1}$ to something is the equivalent of not doing anything.

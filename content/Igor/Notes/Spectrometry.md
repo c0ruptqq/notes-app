@@ -7,8 +7,8 @@ NMR spectrometry is a resonance absorption of electro magnetic energy by a mater
 Electron spin - 
 
 ### Looking at resonance
-[[Circular motion]]
-Before discussing resonance we must first look at oscillation. [[Circular motion | Oscillation]]  - repeating process of changing the state of a system near the point of centre of mass.  Oscillation are described with certain physical terms:
+[[physics/year 1/Circular motion]]
+Before discussing resonance we must first look at oscillation. [[physics/year 1/Circular motion| Oscillation]]  - repeating process of changing the state of a system near the point of centre of mass.  Oscillation are described with certain physical terms:
 - Amplitude (A) - The maximum value of displacement from the normal 
 - Period (T) - The time for an object to complete one whole oscillation with the amplitude A. It is measured in seconds. $T=\frac{t}{n}$ Where t - time of oscillation, n - number of oscillations
 - Frequency - Value equal to the inverse of T. $F = \frac{1}{T}$

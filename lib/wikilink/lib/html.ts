@@ -133,10 +133,12 @@ function html(opts: HtmlOptions = {}) {
       }
     } else {
       this.tag(
-        `<a href="${hrefTemplate(link + headingId)}" class="${classNames}">`
+        `<span class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 ${classNames}" data-href="${hrefTemplate(link + headingId)}">`
       );
+      this.tag(`<a href="${hrefTemplate(link + headingId)}" class="text-inherit no-underline" style="text-decoration: none !important;">`);
       this.raw(displayName);
       this.tag("</a>");
+      this.tag("</span>");
     }
   }
 

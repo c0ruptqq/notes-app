@@ -1,6 +1,5 @@
 import { Badge } from "@/components/ui/badge";
 import { getPostData, getPathList } from "@/lib/posts"
-import { Button } from "@nextui-org/react";
 import path from 'path';
 const DOCS_ROOT = path.join(process.cwd(), '/content');
 const pageFileCache = {};
@@ -26,7 +25,7 @@ export default async function Page({ params }) {
   console.log(tags)
   return (
     <>
-      <div className='prose prose-l p-5 mx-auto dark:prose-invert break-words'>
+      <div className='prose prose-l p-5 mx-auto dark:prose-invert break-words prose-td:p-3'>
         <h1 className='mt-28'>{postData.title}</h1>
         <div className='-mt-3'>/{slugPath}/</div>
         <div className='mt-3'>

@@ -66,7 +66,12 @@
   padding-bottom: 0.5rem; /* Add some padding to ensure scrollbar doesn't cover content */
 }
 
-.katex-display { overflow: auto hidden }
+.katex-display { 
+  overflow: auto hidden 
+}
+.katex{
+  @apply z-[-9] relative
+}
 
 
 @layer base {
@@ -138,7 +143,7 @@ h6:hover #wrapper
 }
 /* Table of Contents */
 .toc{
-  @apply rounded-xl p-3 mb-3 outline 
+  @apply rounded-xl p-3 mb-3 outline z-[-9] relative
 }
 .toc p{
   @apply text-light-secondary text-2xl m-0
@@ -161,4 +166,7 @@ h6:hover #wrapper
     display: inline-block;
     margin-bottom: 0.3rem;
     margin-left: 1rem;
+}
+table{
+  border-width: 1.5px;
 }

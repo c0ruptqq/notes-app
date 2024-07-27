@@ -10,7 +10,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className='w-full flex justify-center pt-3'>
+    <div className='w-full flex justify-center pt-3 h-screen items-center'>
       {user ?
       <div>Logged In</div> 
       :

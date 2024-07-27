@@ -9,9 +9,9 @@ export default function Search({ size, inputRef, isOpen, close }) {
   const [searchResults, setSearchResults] = useState([]);
   const [value, setValue] = useState("");
   const router = useRouter()
-  const { user } = useAuth()
+  const { isLoggedin } = useAuth()
   const handleSearch = (value) => {
-    const results = searchInJSON(value, { caseSensitive: true, partialMatch: true }, user);
+    const results = searchInJSON(value, { caseSensitive: true, partialMatch: true }, isLoggedin);
     setSearchResults(results);
   }
   return (

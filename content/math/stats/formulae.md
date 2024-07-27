@@ -47,15 +47,21 @@ Sample mean - $\bar{x}$
 
 Mean from a list of data:
 
-$$\bar{x}=\frac {\sum{x}}{n}$$
+$$
+\bar{x}=\frac {\sum{x}}{n}
+$$
 
 Mean from a frequency table:
 
-$$\bar{x}=\frac {\sum{fx} } {\sum f}$$
+$$
+\bar{x}=\frac {\sum{fx} } {\sum f}
+$$
 
 Median - $Q_2$
 
-$$Q_2=\frac {1} {2}(n+1)^{\text{th}}$$
+$$
+Q_2=\frac {1} {2}(n+1)^{\text{th}}
+$$
 
 If there is an even amount of numbers - Half of $\sum \text{two middle numbers}$
 
@@ -69,9 +75,15 @@ Median - $Q_2$
 
 Upper Quartile - $Q_3$
 
-$$Q_1 = \frac 1 4(n+1)^{th}$$
-$$Q_2 = \frac 1 2(n+1)^{th}$$
-$$Q_3 = \frac 3 4(n+1)^{th}$$
+$$
+Q_1 = \frac 1 4(n+1)^{th}
+$$
+$$
+Q_2 = \frac 1 2(n+1)^{th}
+$$
+$$
+Q_3 = \frac 3 4(n+1)^{th}
+$$
 
 This data can also be represented in a box and whisker plot:
 
@@ -84,7 +96,9 @@ When finding quartiles if the result is:
 
 If data is presented in a grouped frequency table *interpolation* can be used, the formula is:
 
-$$Q_2 = b + \frac {(\frac {1}{2}n)-f} {f_c}* c$$
+$$
+Q_2 = b + \frac {(\frac {1}{2}n)-f} {f_c}* c
+$$
 Where:
 - $n$ - Number of data points
 - $b$ - Lower boundary of the selected group

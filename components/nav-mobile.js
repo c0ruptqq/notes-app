@@ -9,7 +9,7 @@ import { genList } from "@/lib/genList";
 import { useAuth } from "@/app/context/AuthContext";
 
 export default function NavMobile() {
-  const { user } = useAuth();
+  const { isLoggedIn } = useAuth();
   const [isOpen, setOpen] = useState(false);
   const [showMe, setShowMe] = useState([]);
   const [scroll, setScroll] = useState(true)
@@ -28,7 +28,6 @@ export default function NavMobile() {
   };
 
   function toggleScroll() {
-    console.log('scroll') //disables scrolling while the menu is opened 
     if (scroll) {
       document.body.classList.remove('no-scroll')
     } else {
@@ -50,16 +49,16 @@ export default function NavMobile() {
 
   }, [pathname]);
   return (
-    <div className="xl:hidden z-30">
-      <div className='border-solid border-2 border-black rounded-xl z-50 relative dark:border-white aspect-square w-16 text-black flex justify-center items-center' onClick={() => {setOpen(!isOpen); toggleScroll()}}>
-        <Hamburger rounded/>
+    <div className="xl:hidden z-[999]">
+      <div className='border-solid border-2 border-black rounded-xl z-[50] relative dark:border-white aspect-square w-16 text-black flex justify-center items-center bg-white dark:bg-black' onClick={() => {setOpen(!isOpen); toggleScroll()}}>
+        <Hamburger isOpen={isOpen}/>
       </div>
       {(isOpen) &&
         <div className="h-screen bg-white dark:bg-black absolute w-screen top-0 left-0 overflow-y-scroll">
           <div className="mt-28">
-            {data.map((item) => (
-              genList(item, showMe, setCurrent, user)
-            ))}
+          {data.map((item) => (
+                    genList(item, showMe, setCurrent, isLoggedIn)
+                  ))}
             <Search />
             <UserBox />
           </div>

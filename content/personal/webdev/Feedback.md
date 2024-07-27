@@ -1,5 +1,7 @@
 ---
 title: Feedback
+tags:
+  - private
 ---
 
 - Comment inline code

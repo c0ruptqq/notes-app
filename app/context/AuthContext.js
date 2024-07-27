@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useState, useContext, useEffect } from 'react';
+import React, { createContext, useState, useContext, useEffect, useMemo } from 'react';
 
 const AuthContext = createContext();
 
@@ -38,9 +38,17 @@ export function AuthProvider({ children }) {
   const logout = () => {
     setUser(null);
   };
+  const isLoggedIn = useMemo(() => !!user, [user]);
 
+  const value = {
+    user,
+    login,
+    logout,
+    loading,
+    isLoggedIn
+  };
   return (
-    <AuthContext.Provider value={{ user, login, logout, loading }}>
+    <AuthContext.Provider value={value}>
       {children}
     </AuthContext.Provider>
   );

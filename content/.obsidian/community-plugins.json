@@ -2,5 +2,11 @@
   "obsidian-latex-suite",
   "text-snippets-obsidian",
   "wikilinks-to-mdlinks-obsidian",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "highlightr-plugin",
+  "obsidian-importer",
+  "mermaid-tools",
+  "obsidian-spaced-repetition",
+  "text-extractor",
+  "docxer"
 ]

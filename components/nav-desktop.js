@@ -7,7 +7,7 @@ import { genList } from "@/lib/genList";
 import { useAuth } from "@/app/context/AuthContext";
 
 export default function NavDesktop() {
-  const { user } = useAuth();
+  const { isLoggedIn } = useAuth();
   const ref = useRef(null);
   const [showMe, setShowMe] = useState([]);
   const [isActive, setIsActive] = useState(false);
@@ -55,7 +55,7 @@ export default function NavDesktop() {
 
 
   return (
-    <div ref={ref} className="hidden xl:block">
+    <div ref={ref} className="hidden xl:block z-[999]">
       <div className="h-screen bg-white dark:bg-black absolute top-0 bottom-0 overflow-y-scroll border-r-1">
         <div className="mt-14" >
           <div className="transition ease-in-out delay-150">
@@ -68,7 +68,7 @@ export default function NavDesktop() {
                     <Search size={42} />
                   </div>
                   {data.map((item) => (
-                    genList(item, showMe, setCurrent, user)
+                    genList(item, showMe, setCurrent, isLoggedIn)
                   ))}
 
                 </div>

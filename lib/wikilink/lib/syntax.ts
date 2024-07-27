@@ -115,7 +115,7 @@ function wikiLink(opts: SyntaxOptions = {}) {
       effects.consume(code);
       effects.exit("wikiLinkAliasMarker");
       effects.enter("wikiLinkAlias");
-      return consumeAlias(code);
+      return consumeAlias;
     }
 
     function consumeAlias(code: number) {

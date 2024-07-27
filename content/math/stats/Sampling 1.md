@@ -28,7 +28,9 @@ There are multiple ways to take a sample from a sampling frame:
 - __Systematic__ - Each member of the sampling frame is numbered and in numerical order. Each member is selected at regular intervals, while the first member is selected using a random number generator.
 
 - __Stratified__ - Population is divided into strata and a random sample proportional to the strata as a proportion of the population is taken.
-$$\text{Number of stratum}=\frac {\text{Number in stratum * sample size}} {\text{number in population}}$$
+$$
+\text{Number of stratum}=\frac {\text{Number in stratum * sample size}} {\text{number in population}}
+$$
 
 - __Quota__ - Similar to stratified but the sample is not random. Each sub-group (strata) are filled by specifically selecting matching items.
 - __Convenience__ (opportunity) - Sample is taken from the item available at the time. Similar to quota however to strata is preset.
