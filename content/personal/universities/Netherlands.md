@@ -3,8 +3,6 @@ title: Netherlands Universities
 tags:
   - private
 ---
-<!--ID: 1724603671341-->
-
 
 ## Universities
 

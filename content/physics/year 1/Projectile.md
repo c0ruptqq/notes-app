@@ -2,8 +2,6 @@
 title: 'Projectile Motion'
 date: '10/02/2023'
 ---
-<!--ID: 1724603671325-->
-
 
 - Objects move in two dimensions (Vertically and horizontally) 
 - Combination of linear motion and free fall

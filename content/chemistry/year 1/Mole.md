@@ -1,8 +1,6 @@
 ---
 title: mole
 ---
-<!--ID: 1724603671383-->
-
 
 mol - amount of substance, equivalent to the number of elementary entities in a substance
 

@@ -2,8 +2,6 @@
 title: 'Population and sampling'
 date: '09/30/2023'
 ---
-<!--ID: 1724603671347-->
-
 
 
 Population - a whole set of items 

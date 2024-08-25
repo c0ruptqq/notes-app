@@ -2,8 +2,6 @@
 title: 'SUVAT equations'
 date: '2023-10-01 13:58'
 ---
-<!--ID: 1724603671322-->
-
 
 S - Displacement
 

@@ -7,8 +7,6 @@ links: [[notes/math/Year 2/Book 2 Index]]
 $$
 \sec \theta \equiv \frac 1 {\cos \theta}
 $$
-<!--ID: 1724603671351-->
-
 
 $$
 \csc \theta \equiv \frac 1 {\sin \theta}

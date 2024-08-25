@@ -1,8 +1,6 @@
 ---
 title: Hypothesis Testing
 ---
-<!--ID: 1724603671348-->
-
 
 We can use a hypothesis test to determine whether the PMCC, for a particular sample,
 indicates that there is likely to be a linear relationship, or not, within the whole population.

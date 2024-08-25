@@ -2,8 +2,6 @@
 title: 'Intermolecular Forces'
 date: '08/10/2023'
 ---
-<!--ID: 1724603671391-->
-
 
 Intermolecular forces - weak interactions between dipoles of different molecules.
 

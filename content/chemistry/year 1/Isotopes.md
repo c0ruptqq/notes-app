@@ -1,8 +1,6 @@
 ---
 title: Isotopes
 ---
-<!--ID: 1724603671388-->
-
 
 The mass of an electron is $\frac 1 {1836}$
 

@@ -2,8 +2,6 @@
 title: Chromatography
 ---
 https://docs.google.com/document/d/1NQDu8rGL3j8yymMdMQZ_If_m5qafgq-r53k7MYVfcUI/edit?pli=1
-<!--ID: 1724603671395-->
-
 
 ### Gas chromatography
 Gas chromatography is used to separate a mixture of volatile liquids. Gas-Liquid Chromatography (GLC) is used for analysing:

@@ -1,8 +1,6 @@
 ---
 title: 4 Acids and Redox
 ---
-<!--ID: 1724603671368-->
-
 
 
 | Spec Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |

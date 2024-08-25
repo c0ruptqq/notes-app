@@ -4,8 +4,6 @@ title: Chapter 10
 # 10 Numerical Methods (Chapter 10)
 ## 10.1 Change of Sign and Continuity
 If $f(a)$ is positive and $f(b)$ is negative (or visa versa) then the equation $f (x) = 0$ must have a root between $a$ and $b$ (so long as the graph $y = f (x)$ is continuous on the interval).
-<!--ID: 1724603671361-->
-
 
 #### Example 10.1
 Show that the equation $ln(x) = \frac{1}{x}$ has a solution in the interval $1.7<x<1.8$

@@ -1,8 +1,6 @@
 ---
 title: Chapter 9
 ---
-<!--ID: 1724603671355-->
-
 
 # Differentiation
 ![](/img/math/book-2/12.png)

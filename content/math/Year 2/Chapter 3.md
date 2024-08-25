@@ -1,8 +1,6 @@
 ---
 title: Chapter 3
 ---
-<!--ID: 1724603671350-->
-
 
 links: [[notes/math/Year 2/Book 2 Index]]
 

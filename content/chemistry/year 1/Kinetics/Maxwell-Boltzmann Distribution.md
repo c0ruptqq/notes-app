@@ -1,8 +1,6 @@
 ---
 title: Maxwell-Boltzmann Distribution
 ---
-<!--ID: 1724603671384-->
-
 
 
 ![img/chem/20.png](/img/chem/20.png)

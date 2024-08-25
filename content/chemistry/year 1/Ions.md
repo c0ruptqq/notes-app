@@ -2,8 +2,6 @@
 title: 'Ions'
 date: '2023-09-30'
 ---
-<!--ID: 1724603671389-->
-
 
 For most elements the group numbers show the charge of the elements in that group. However, there are exceptions:
 

@@ -9,5 +9,3 @@ title: Practicals
 - Significant figures need to match, (errors will most likely be one decimal figure)
 - **Line of best fit needs to hit all points and error bars**
 - 
-<!--ID: 1724603671326-->
-

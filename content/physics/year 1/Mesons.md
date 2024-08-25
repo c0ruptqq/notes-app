@@ -1,8 +1,6 @@
 ---
 title: Mesons
 ---
-<!--ID: 1724603671331-->
-
 
 - Mu meson/Muon  - **Is not a meson** , It has the same properties to that of a electron but has 200 times the rest mass
 - Pion - Can be $\pi^-, \pi^+, \pi^0$, greater mass than a muon but less than a proton

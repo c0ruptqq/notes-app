@@ -5,8 +5,6 @@ links: [[notes/math/Year 2/Book 2 Index]]
 # Radians 
 ## 5.1 Introduction
 ![img/math/book-2/6.jpeg](/img/math/book-2/6.jpeg)
-<!--ID: 1724603671356-->
-
 
 If the arc AB has length r, then $\angle AOB$ is 1 radian ($1^c$)
 A full circle has an arc length $2\pi r$, so the angle around a full circle is $2\pi$ rad.

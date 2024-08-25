@@ -2,8 +2,6 @@
 title: Equilibrium Constant
 ---
 # Equilibrium Constant
-<!--ID: 1724603671387-->
-
 
 The equilibrium constant - ratio of the concentrations of products and reactants:
 

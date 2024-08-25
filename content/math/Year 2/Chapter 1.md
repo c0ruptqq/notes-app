@@ -5,8 +5,6 @@ title: Chapter 1
 ## 1.1 Algebraic Fractions
 To multiply or divide algebraic fractions we always start by factorising where possible.
 #### Example 1.1
-<!--ID: 1724603671357-->
-
 
 Simplify: 
 

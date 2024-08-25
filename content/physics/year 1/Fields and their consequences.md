@@ -3,8 +3,6 @@ title: Fields and their consequences
 ---
 ## 7.4 Capacitance
 Capacitor - An electrical component that stores charge
-<!--ID: 1724603671336-->
-
 
 ![/img/phys/35.jpeg](/img/phys/35.jpeg)
 

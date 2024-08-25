@@ -4,8 +4,6 @@ title: Chapter 4
 # Rigid Bodies
 ## 1.1 Moments
 In book one we mainly looked at forces on particles which meant that we could ignore the rotational effects of any forces. When we start modelling objects as rigid bodies we need to also consider the moments on an object (the moment of a force is a measure of its 'turning ability'). To do this we need to know both the size of any forces that are acting on the object and also where the forces are applied. The moment of a force $F = F d$, the perpendicular distance from the pivot $P$ to the line of action of $F$. Note that this means that a force acting at the pivot generates no moment. We can also think of this moment formula as saying that moment = d, the distance to the pivot, the perpendicular part of the force. When several forces act on a body, the resultant moment is found by adding all the individual moments (keeping in mind whether they are acting in a clockwise or anticlockwise direction).
-<!--ID: 1724603671354-->
-
 
 #### Example 1.1
 Four forces act on a rod AB, as shown in the diagram below. Calculate the resultant moment on the rod around B, specifying its direction.

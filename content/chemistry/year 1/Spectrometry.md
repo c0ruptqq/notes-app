@@ -3,8 +3,6 @@ title: 'Spectrometry'
 date: '2023-09-30'
 ---
 Mass spectrometry allows us to work out relative atomic mass of an element
-<!--ID: 1724603671377-->
-
 
 Basic principle:
 - A sample is placed in the mass spectrometer

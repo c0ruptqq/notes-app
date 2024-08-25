@@ -2,8 +2,6 @@
 title: Waves 2 - refraction
 ---
 # Refraction
-<!--ID: 1724603671318-->
-
 
 GCSE: Bending of light when there is a change in medium
 A-Level: Change in speed of a wave due to a change in medium or due to variations in properties of a medium.

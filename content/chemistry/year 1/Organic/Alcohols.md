@@ -1,8 +1,6 @@
 ---
 title: Alcohols
 ---
-<!--ID: 1724603671380-->
-
 
 ## Elimination
 Alcohols can also undergo dehydration to form alkenes. This is an example of an elimination reaction. Elimination reactions involve a small molecule leaving the parent molecule as a by-product. In this case,the small molecule is a water molecule. The water molecule is formed from the -OH group and a hydrogen atom from the adjacent carbon atom.

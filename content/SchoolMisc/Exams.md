@@ -1,8 +1,6 @@
 ---
 title: Exam Results
 ---
-<!--ID: 1724603671398-->
-
 
 ## Standard Math
 ### Pure
