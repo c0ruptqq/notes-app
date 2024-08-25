@@ -13,50 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/year1/Index.md",
+                "file": "physics/year1/Index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5799c5ad211ce529",
+            "id": "709d6ce20d0b815c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/year1/16 Synthesis.md",
+                "file": "physics/year1/SHM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fc74a16e67b08d00",
+            "id": "20e13cc37e664625",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chemistry/year1/14 Alcohols.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6470e4d5f245c3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chemistry/year1/Index.md",
+                "file": "physics/year 1/bosons.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chemistry/year1/Index.md",
+                "file": "physics/year 1/bosons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chemistry/year1/Index.md",
+                "file": "physics/year 1/bosons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chemistry/year1/Index.md"
+                "file": "physics/year 1/bosons.md"
               }
             }
           },
@@ -192,21 +180,37 @@
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "e6470e4d5f245c3f",
+  "active": "20e13cc37e664625",
   "lastOpenFiles": [
+    "physics/year 1/Baryons.md",
+    "physics/year1/Index.md",
+    "physics/year1/anki/Anki.md",
+    "physics/year1/SHM.md",
+    "physics/year1/anki",
+    "SchoolMisc/Exams.md",
+    "img/phys/damping.png.png",
+    "img/phys/energy.png.png",
+    "physics/year1/Capacitance.md",
+    "chemistry/year1/Index.md",
+    "img/phys/charge.png",
+    "physics/year 1/Electricity.md",
+    "physics/year 1/Internal_Resistance.md",
+    "img/phys/area.png",
+    "Pasted image 20240513150119.png",
+    "img/phys/capacitor.png",
+    "chemistry/year1/14 Alcohols.md",
     "LOWER 6th Revision plan 2024.md",
     "chemistry/year1/16 Synthesis.md",
-    "chemistry/year1/14 Alcohols.md",
     "chemistry/year1/13 Alkenes.md",
     "chemistry/year1/6 Shapes of molecules and intermolecular forces.md",
     "chemistry/year1/7 Periodicity.md",
     "chemistry/year1/8 Reactivity Trends.md",
     "chemistry/year1/3 Amount of substance.md",
     "chemistry/year1/2 Atoms ions compounds.md",
-    "chemistry/year1/Index.md",
     "chemistry/year1/12 Alkanes.md",
     "chemistry/year1/11 Concepts of Organic.md",
     "chemistry/year1/10 Reaction Rates  and Equilibrium.md",
@@ -219,29 +223,14 @@
     "chemistry/year1/().md",
     "Attachments/Attachment.png",
     "Attachments",
-    "physics/year1/Index.md",
     "physics/year1",
     "chemistry/year1",
-    "chemistry/year 1/Alcohols.md",
-    "physics/year 1/Baryons.md",
     "chemistry/year 1",
-    "physics/year 1/Circular motion.md",
     "physics/year 1",
-    "physics/year 1/bosons.md",
-    "personal/webdev/Feedback.md",
-    "personal/webdev/DevLog.md",
-    "personal/universities/Netherlands.md",
-    "Pasted image 20240513150119.png",
     "Igor/Img/Spectroscopy8.jpg",
     "Igor/Img/Spectroscopy12.jpg",
     "Igor/Img/Spectroscopy7.jpg",
-    "Igor/Img/Spectroscopy13.jpg",
-    "Igor/Img/Spectroscopy11.jpg",
-    "Igor/Img/Spectroscopy10.jpg",
-    "Igor/Img/Spectroscopy9.jpg",
-    "Igor/Img/Spectroscopy6.jpg",
     "Igor/Img/Spectroscopy2.jpg.sb-690ddcbe-cCjGLU",
-    "Igor/Notes",
-    "Igor/Img"
+    "Igor/Notes"
   ]
 }

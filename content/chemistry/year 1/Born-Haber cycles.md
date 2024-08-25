@@ -2,6 +2,8 @@
 title: Born-Haber and Enthalpy changes
 ---
 # Enthalpy Changes
+<!--ID: 1724603671396-->
+
 
 ## Standard Enthalpy change of atomisation
 The enthalpy change which accompanies the formation of one mole of gaseous atoms from the elements in its standard state under standard conditions. ($\Delta_{at}H^{\theta}$), Eg.

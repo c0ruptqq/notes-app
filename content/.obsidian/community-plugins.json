@@ -8,5 +8,7 @@
   "mermaid-tools",
   "obsidian-spaced-repetition",
   "text-extractor",
-  "docxer"
+  "docxer",
+  "quick-latex",
+  "obsidian-to-anki-plugin"
 ]

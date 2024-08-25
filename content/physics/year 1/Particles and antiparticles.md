@@ -4,6 +4,8 @@ title: Particles and antiparticles
 # Particles
 ## Beta decay
 ### Beta Negative
+<!--ID: 1724603671328-->
+
 
 Beta decays occurs when a nucleus releases a beta negative ($\beta^-$) particle and an antineutrino ($\bar{v}$).
 

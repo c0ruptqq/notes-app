@@ -2,6 +2,8 @@
 title: 'Electronegativity'
 date: '10/02/2023'
 ---
+<!--ID: 1724603671393-->
+
 
 Electronegativity - ability of a nuclei to pull a pair of electrons towards itself within a covalent bond.
 

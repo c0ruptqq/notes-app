@@ -2,6 +2,8 @@
 title: 'Discriminant'
 date: '09/30/2023'
 ---
+<!--ID: 1724603671349-->
+
 
 
 Tells how many solutions there are 

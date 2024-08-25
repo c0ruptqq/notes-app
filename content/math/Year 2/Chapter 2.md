@@ -6,6 +6,8 @@ links: [[notes/math/Year 2/Book 2 Index]]
 ## 2.1 The modulus Function
 The *modulus* (also called the absolute value) of a number $a$ is written $|a|$. The Absolute value of a number is its 'size'. For example, $|5| = |-5| = 5$
 A modulus function ($y=|f(x)|$) is defined as $|f(x)| = f(x)$ for $f(x) \geq 0$ and $|f(x)| = -f(x)$ for $f(x) \leq 0$.
+<!--ID: 1724603671358-->
+
 
 ![img/math/book-2/1.jpg](/img/math/book-2/1.jpg)
 

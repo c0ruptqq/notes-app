@@ -2,6 +2,8 @@
 title: quantum
 ---
 https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/06%3A_Photons_and_Matter_Waves/6.03%3A_Photoelectric_Effect
+<!--ID: 1724603671324-->
+
 
 Photo electric effect equation:
 

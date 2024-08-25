@@ -2,6 +2,8 @@
 title: 'Motion'
 date: '09/30/2023'
 ---
+<!--ID: 1724603671329-->
+
 
 ### Galilean equation:
 

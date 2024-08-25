@@ -7,6 +7,8 @@ Factors that affect the rate of reaction:
 - Temperature
 - Particle size (surface area)
 - Catalysts
+<!--ID: 1724603671385-->
+
 
 For a reaction to take place:
 - Particles need to collide 

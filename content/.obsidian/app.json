@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "absolute",
   "newFileLocation": "current",
   "strictLineBreaks": false
 }

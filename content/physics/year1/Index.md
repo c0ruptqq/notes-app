@@ -1,4 +1,10 @@
-- Capacitance
+---
+title: Index
+---
+<!--ID: 1724603671314-->
+
+
+- [[Capacitance]]
 - Circular Motion
 - Electricity
 - Materials
@@ -7,5 +13,5 @@
 - Optics
 - Particle
 - Quantum
-- SHM
+- [[SHM]]
 - Wave Mechanics

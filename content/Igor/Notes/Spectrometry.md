@@ -3,6 +3,8 @@ title: Spectrometry - Igor
 ---
 ### Page 1
 NMR spectrometry is a resonance absorption of electro magnetic energy by a material with a non-zero spin in the outer magnetic field $\vec{B_{0}}$ in the frequency $\mu$ (called the NRM frequency). According to the laws of quantum mechanics, the energy of interaction of the magnetic nucleus of a chemical element (which has a magnetic moment $\mu$) with the outer magnetic field with the direction $\vec{B_{0}}$ it can only accept a few discrete values. If magnetic nuclei are subjected to a constant magnetic field $\vec{B_{0}}$ with a periodic magnetic field, whose energy corresponds with the difference between these discrete energy levels expressed in frequency units ($E=H\times v$, $V \times \lambda = C$, where E - is energy of electromagnetic wave, V - Frequency of electromagnetic wave, $\lambda$ - Length of the electromagnetic wave. C - Speed of light, H - Planck's constant) then the magnetic nuclei (which have a personal magnetic moment $\mu$) start to travel from one discrete energetic level to another, absorbing energy (identical in frequency) periodic magnetic field.
+<!--ID: 1724603671399-->
+
 
 Electron spin - 
 

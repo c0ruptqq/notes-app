@@ -2,6 +2,8 @@
 title: 'Types of data and formulae'
 date: '09/30/2023'
 ---
+<!--ID: 1724603671343-->
+
 
 ### Types of data
 

@@ -2,6 +2,8 @@
 title: Equilibrium
 ---
 Equilibrium is the state of balance in which nothing changes. This is know as dynamic equilibrium. 
+<!--ID: 1724603671386-->
+
 
 $$
 \ce{A + B <=> C + D}

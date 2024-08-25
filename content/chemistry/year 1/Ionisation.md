@@ -2,6 +2,8 @@
 title: 'Ionisation'
 date: '10/15/2023'
 ---
+<!--ID: 1724603671390-->
+
 
 Ionisation is the measure of how easily an atom loses electrons to from positive ions. First ionisation energy denotes the energy needed for each atom is a gaseous state to lose one electron. 
 

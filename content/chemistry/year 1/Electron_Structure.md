@@ -2,6 +2,8 @@
 title: 'Electron Structure'
 date: '09/30/2023'
 ---
+<!--ID: 1724603671394-->
+
 
 
 Orbitals - Shells are made up of orbitals, an orbital holds two electrons with opposite spins. There are four types of orbitals (s-,p-,d-,f-), each orbital is a different shape.

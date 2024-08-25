@@ -3,6 +3,8 @@ title: Chapter 11
 ---
 ## 11.1 Technique 1: Linear Transformation
 If you can make an integral look like something you know by making a simple transformation then do so.
+<!--ID: 1724603671360-->
+
 
 #### Example 11.1
 Find $\int (2x+3)^4 \, dx$

@@ -3,6 +3,8 @@ title: Chapter 12
 ---
 # 12 Vectors
 ## 12.1 3D Coordinates
+<!--ID: 1724603671359-->
+
 
 Use the right hand rule to visualise (x,y,z):
 - Thumb (x)

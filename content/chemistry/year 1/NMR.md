@@ -2,6 +2,8 @@
 title: NMR
 ---
 # NMR
+<!--ID: 1724603671381-->
+
 
 The horizontal scale on an NMR spectrum represents chemical shift (δ). Chemical shift is measured in parts per million (ppm) of the radio frequency needed for resonance compared to a reference chemical called tetramethylsilane (TMS). TMS is used universally as the reference compound for NMR because: its methyl groups are particularly well shielded and so it produces a strong, single peak at the far right of an NMR spectrum. The signal from the hydrogen atoms in TMS is defined as having a chemical shift of 0 ppm.
 

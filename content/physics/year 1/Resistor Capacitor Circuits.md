@@ -2,6 +2,8 @@
 title: RC circuits
 ---
 Consider the following circuit
+<!--ID: 1724603671323-->
+
 
 ![/img/phys/40.png](/img/phys/40.png)
 

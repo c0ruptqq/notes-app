@@ -1,6 +1,8 @@
 ---
 title: Internal Resistance
 ---
+<!--ID: 1724603671334-->
+
 
 An electrical source (cell) has an internal resistance which oppose the flow of charge through it
 

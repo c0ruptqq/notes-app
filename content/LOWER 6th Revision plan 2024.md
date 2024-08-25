@@ -1,3 +1,6 @@
+---
+title: 'Revision Plan'
+---
 Year 12 Chemsheets Quick Check [Revision Booklet](https://drive.google.com/file/d/1a8TONUb9hcrNN9-qBe6mVkp9xDQwcR-G/view?usp=sharing)
 
 **Revision Schedule:**

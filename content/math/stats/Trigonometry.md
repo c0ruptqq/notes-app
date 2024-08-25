@@ -2,6 +2,8 @@
 title: 'Trigonometry'
 date: '2023-10-01'
 ---
+<!--ID: 1724603671344-->
+
 
 Sine Rule:
 $$
