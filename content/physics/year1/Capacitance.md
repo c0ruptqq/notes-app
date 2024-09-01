@@ -3,7 +3,7 @@ title: Capacitance
 ---
 # Intro
 A capacitor stores charge. Its made of parallel conducting plates with an insulator (dielectric) between them. How much charge can be stored per unit of potential difference is <mark class="hltr-purple">capacitance</mark>:
-<!--ID: 1724603671313-->
+
 
 
 $$

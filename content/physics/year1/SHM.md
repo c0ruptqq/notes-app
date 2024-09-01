@@ -49,7 +49,6 @@ $$
 An object is experiencing simple harmonic motion if it is oscillating in a way in which acceleration:
 - Proportional to the displacement
 - Always in the opposite direction to displacement
-<!--ID: 1724603671311-->
 
 
 $$
