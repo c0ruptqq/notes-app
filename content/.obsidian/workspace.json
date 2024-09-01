@@ -11,8 +11,12 @@
             "id": "709d6ce20d0b815c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "physics/year 1/Particles and antiparticles.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "physics/year 1/Particles and antiparticles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "physics/year 1/Particles and antiparticles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,19 +124,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "e71e10bbc7b4f288",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
+              "state": {
+                "file": "physics/year 1/Particles and antiparticles.md"
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,13 +146,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "709d6ce20d0b815c",
   "lastOpenFiles": [
+    "physics/year 1/Practicals.md",
+    "physics/year 1/Particles and antiparticles.md",
+    "physics/year1/SHM.md",
+    "physics/year1/Capacitance.md",
+    "img/phys/damping.png.png",
+    "img/phys/charge.png",
+    "img/phys/capacitor.png",
+    "img/phys/area.png",
     "chemistry/year1/6 Shapes of molecules and intermolecular forces 2.md",
     "chemistry/year1/10 Reaction Rates  and Equilibrium 2.md",
     "Igor/Img/Spectroscopy12 2.jpg",
@@ -175,21 +181,13 @@
     "chemistry/year1/14 Alcohols 2.md",
     "chemistry/year1/13 Alkenes 2.md",
     "chemistry/year1/8 Reactivity Trends 2.md",
-    "Igor/Img/Spectroscopy13 2.jpg",
-    "Igor/Img/Spectroscopy9 2.jpg",
-    "Igor/Img/Spectroscopy8 2.jpg",
     "chemistry/year1/7 Periodicity 2.md",
-    "img/math/book-2/1 2.jpg",
     "math/Year 2/Mechanics/Chapter 9.md",
     "Igor/Notes/Spectrometry 2.md",
     "physics/year1/Index.md",
     "physics/year 1/neutrino.md",
     "physics/year 1/fermions.md",
     "physics/year 1/bosons.md",
-    "physics/year 1/Waves 2 - Refraction.md",
-    "physics/year 1/Vectors.md",
-    "physics/year 1/Units.md",
-    "physics/year 1/Uncertainty.md",
     "physics/year1",
     "physics/year 1",
     "physics/Misc",
