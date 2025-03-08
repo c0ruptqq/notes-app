@@ -14,13 +14,15 @@ export function AuthProvider({ children }) {
         const response = await fetch('/api/auth/user');
         if (response.ok) {
           const data = await response.json();
+          if (data.authenticated){
           setUser(data.username);
-        } else if (response.status === 401) {
-          // User is not logged in, this is fine
+        }
+         else if (!data.authenticated) {
           setUser(null);
-        } else {
-          // Handle other errors
+        } 
+      } else {
           console.error('Error fetching user data:', response.statusText);
+          setUser(null)
         }
       } catch (error) {
         console.error('Error fetching user data:', error);

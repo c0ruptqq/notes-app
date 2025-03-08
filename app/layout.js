@@ -11,14 +11,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
 
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <head>
         <link
           rel="stylesheet"
           href="/katex.css"
         />
       </head>
-      <body className="min-h-screen" >
+      <body className="min-h-screen">
         <Provider themeProps={{ attribute: "class" }}>
          <Header />
           <SpeedInsights />

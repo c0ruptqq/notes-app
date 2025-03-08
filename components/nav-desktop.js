@@ -38,7 +38,6 @@ export default function NavDesktop() {
 
   const toggleSearch = () => {
     setIsActive(!isActive);
-    console.log("changed")
   };
   const setCurrent = index => { //function which manages the array of 'opened' folders and subfolders
     if (showMe.includes(index)) {
