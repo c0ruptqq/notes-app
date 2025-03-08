@@ -49,12 +49,12 @@ export default function NavMobile() {
 
   }, [pathname]);
   return (
-    <div className="xl:hidden z-[999]">
+    <div className="xl:hidden">
       <div className='border-solid border-2 border-black rounded-xl z-[50] relative dark:border-white aspect-square w-16 text-black flex justify-center items-center bg-white dark:bg-black' onClick={() => {setOpen(!isOpen); toggleScroll()}}>
         <Hamburger isOpen={isOpen}/>
       </div>
       {(isOpen) &&
-        <div className="h-screen bg-white dark:bg-black absolute w-screen top-0 left-0 overflow-y-scroll">
+        <div className="h-screen bg-white dark:bg-black absolute w-screen top-0 left-0 overflow-y-scroll z-[1]">
           <div className="mt-28">
           {data.map((item) => (
                     genList(item, showMe, setCurrent, isLoggedIn)

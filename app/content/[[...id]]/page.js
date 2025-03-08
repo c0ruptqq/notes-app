@@ -25,7 +25,7 @@ export default async function Page({ params }) {
   console.log(tags)
   return (
     <>
-      <div className='prose prose-l p-5 mx-auto dark:prose-invert break-words prose-td:p-3'>
+      <div className='prose prose-l p-5 mx-auto dark:prose-invert break-words prose-td:p-3 prose-container'>
         <h1 className='mt-28'>{postData.title}</h1>
         <div className='-mt-3'>/{slugPath}/</div>
         <div className='mt-3'>
