@@ -22,7 +22,7 @@ export default async function Page({ params }) {
   // Get postdata for the slug and markdown file
   const postData = await getPostData(slugPath, markdownFile); 
   const tags = toList(postData.tags)
-  console.log(tags)
+
   return (
     <>
       <div className='prose prose-l p-5 mx-auto dark:prose-invert break-words prose-td:p-3 prose-container'>

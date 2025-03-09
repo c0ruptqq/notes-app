@@ -142,8 +142,11 @@ h6:hover #wrapper
   visibility: visible;
 }
 /* Table of Contents */
+.prose-container .toc {
+  @apply z-[-1]
+}
 .toc{
-  @apply rounded-xl p-3 mb-3 outline z-[-1] relative
+  @apply rounded-xl p-3 mb-3 outline  relative
 }
 .toc p{
   @apply text-light-secondary text-2xl m-0

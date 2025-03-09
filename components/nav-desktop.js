@@ -55,7 +55,7 @@ export default function NavDesktop() {
 
   return (
     <div ref={ref} className="hidden xl:block z-[999]">
-      <div className="h-screen bg-white dark:bg-black absolute top-0 bottom-0 overflow-y-scroll border-r-1">
+      <div className={`h-screen bg-white ${!isActive ? 'dark:bg-black bg-white' : 'bg-white/25 dark:bg-black/25 backdrop-blur-sm'} absolute top-0 bottom-0 overflow-y-scroll border-r-1`}>
         <div className="mt-14" >
           <div className="transition ease-in-out delay-150">
             {!isActive
@@ -74,9 +74,9 @@ export default function NavDesktop() {
               )
               :
               (
-                <div className="top-0 mt-[-7rem] z-50 justify-center items-center flex backdrop-blur-sm h-screen w-screen">
+                <div className="top-0 mt-[-7rem] justify-center items-center flex h-screen w-screen">
                   <div className="w-[50rem] outline-none">
-                    <Search size={14} inputRef={inputRef} isOpen={isActive} close={toggleSearch} />
+                    <Search size={14} inputRef={inputRef} isOpen={isActive} close={toggleSearch} isMobile={false} />
                   </div>
                 </div>
               )

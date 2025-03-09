@@ -59,7 +59,7 @@ export default function NavMobile() {
           {data.map((item) => (
                     genList(item, showMe, setCurrent, isLoggedIn)
                   ))}
-            <Search close={undefined} />
+            <Search close={undefined} isMobile={true}/>
             <UserBox />
           </div>
         </div>
