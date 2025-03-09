@@ -1,7 +1,7 @@
 'use client'
 import { searchInJSON, getHighlightedFileContent, groupResultsByRoute, getFileContent } from "@/lib/search";
 import { useRouter } from "next/navigation";
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { Input } from "@/components/ui/input";
 import { useAuth } from "@/app/context/AuthContext";
 import { 
@@ -11,7 +11,8 @@ import {
   clearRenderCache 
 } from "@/lib/searchRender";
 
-export default function Search({ size, inputRef, isOpen, close, isMobile}) {
+export default function Search({ inputRef, close, isMobile}) {
+  const { isLoggedIn } = useAuth();
   const [searchResults, setSearchResults] = useState([]);
   const [renderedResults, setRenderedResults] = useState([]);
   const [value, setValue] = useState("");
@@ -20,8 +21,8 @@ export default function Search({ size, inputRef, isOpen, close, isMobile}) {
   const [renderedFileContent, setRenderedFileContent] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
-  const { isLoggedin } = useAuth();
 
+  const contentPanelRef = useRef(null);
   // Debounced search handler
   const debouncedSearch = useCallback(
     debounce((searchTerm) => {
@@ -32,7 +33,7 @@ export default function Search({ size, inputRef, isOpen, close, isMobile}) {
         return;
       }
       
-      const results = searchInJSON(searchTerm, { caseSensitive: false, partialMatch: true }, isLoggedin);
+      const results = searchInJSON(searchTerm, { caseSensitive: false, partialMatch: true }, isLoggedIn);
       setSearchResults(results);
       
       // Set the first route as hovered by default for initial content display
@@ -41,7 +42,7 @@ export default function Search({ size, inputRef, isOpen, close, isMobile}) {
         setHoveredRoute(firstRoute);
       }
     }, 300),
-    [isLoggedin]
+    [isLoggedIn]
   );
 
   const handleSearch = (value) => {
@@ -107,6 +108,22 @@ export default function Search({ size, inputRef, isOpen, close, isMobile}) {
 
     updateFileContent();
   }, [hoveredRoute, value]);
+
+  // Scroll to and center the first highlighted element when content is rendered
+  useEffect(() => {
+    if (!isLoading && renderedFileContent && contentPanelRef.current && value) {
+      // Wait a bit for the DOM to be fully updated with the highlighted content
+      setTimeout(() => {
+        const highlightedElement = contentPanelRef.current.querySelector('mark, .highlight');
+        if (highlightedElement) {
+          highlightedElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+          });
+        }
+      }, 100);
+    }
+  }, [renderedFileContent, isLoading, value]);
 
   // Clear render cache when component unmounts
   useEffect(() => {
@@ -185,7 +202,10 @@ export default function Search({ size, inputRef, isOpen, close, isMobile}) {
               
               {/* Right panel: Content preview based on hover */}
               {!isMobile ? (
-              <div className="w-2/3 overflow-auto p-4 bg-white dark:bg-black">
+              <div 
+                ref={contentPanelRef}
+                className="w-2/3 overflow-auto p-4 bg-white dark:bg-black"
+              >
                 {isLoading ? (
                   <div className="flex justify-center items-center h-full">
                     <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>

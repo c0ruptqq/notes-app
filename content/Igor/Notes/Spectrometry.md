@@ -21,7 +21,7 @@ Resonance in physics is the feedback of the oscillating system to the periodic i
 ## Non Zero Spin
 **Nucleus of a chemical element with a non zero spin.** The nucleus can by simplified to by represented as a positively charged ($Z+$) electric ball, due to it having protons with the charge of +1. The charged ball spins along it own axis, due to the laws of electrodynamics, the rotation of the charge leads to a magnetic field, ei the magnetic moment of the nucleus $\mu$, which is angled along the axis of rotation. If $\mu$ is placed in the outer magnetic field with the charge $\vec{B_{0}}$, then the vector of $\vec{\mu}$ starts to precession, ei. rotate about the direction of the outside magnetic field $\vec{B_{0}}$
 
-![spin.png](spin.png)
+![spin.png](/img/chem_igor/spin.png)
 
 It precesses in the same way if it is spun in a non-vertical way. In this case the the magnetic field acts as the gravity.
 

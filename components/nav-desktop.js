@@ -5,6 +5,7 @@ import Search from './search';
 import ProfileBox from "./auth/userBox";
 import { genList } from "@/lib/genList";
 import { useAuth } from "@/app/context/AuthContext";
+import { usePathname } from "next/navigation";
 
 export default function NavDesktop() {
   const { isLoggedIn } = useAuth();
@@ -12,6 +13,7 @@ export default function NavDesktop() {
   const [showMe, setShowMe] = useState([]);
   const [isActive, setIsActive] = useState(false);
   const inputRef = useRef(null)
+  const [scroll, setScroll] = useState(true)
   useEffect(() => {
     const handleKeyPress = (event) => {
       // Check if Cmd/Ctrl + K is pressed
@@ -38,6 +40,7 @@ export default function NavDesktop() {
 
   const toggleSearch = () => {
     setIsActive(!isActive);
+    toggleScroll()
   };
   const setCurrent = index => { //function which manages the array of 'opened' folders and subfolders
     if (showMe.includes(index)) {
@@ -52,10 +55,27 @@ export default function NavDesktop() {
     }
   };
 
+  function toggleScroll() {
+    if (scroll) {
+      document.body.classList.remove('no-scroll')
+    } else {
+      document.body.classList.add('no-scroll')
+
+    }
+    setScroll(!scroll)
+
+  }
+  const pathname = usePathname()
+  useEffect(() => {
+    if (scroll) {
+      document.body.classList.remove('no-scroll')
+      setScroll(!scroll)
+    }
+  }, [pathname]);
 
   return (
     <div ref={ref} className="hidden xl:block z-[999]">
-      <div className={`h-screen bg-white ${!isActive ? 'dark:bg-black bg-white' : 'bg-white/25 dark:bg-black/25 backdrop-blur-sm'} absolute top-0 bottom-0 overflow-y-scroll border-r-1`}>
+      <div className={`h-screen bg-white ${!isActive ? 'dark:bg-black bg-white' : 'bg-white/25 dark:bg-black/25 backdrop-blur-sm'} absolute top-0 bottom-0 border-r-1`}>
         <div className="mt-14" >
           <div className="transition ease-in-out delay-150">
             {!isActive
@@ -75,7 +95,7 @@ export default function NavDesktop() {
               :
               (
                 <div className="top-0 mt-[-7rem] justify-center items-center flex h-screen w-screen">
-                  <div className="w-[50rem] outline-none">
+                  <div className="w-[50rem] outline-none absolute">
                     <Search size={14} inputRef={inputRef} isOpen={isActive} close={toggleSearch} isMobile={false} />
                   </div>
                 </div>
