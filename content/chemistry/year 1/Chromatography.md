@@ -16,7 +16,7 @@ The mobile phase: An inert carrier gas (e.g. helium, neon or nitrogen).
 
 Adsorbed - Temporarily attracted to the element
 
-![](public/img/Pasted%20image%2020240424142854.png)
+![](/img/Pasted%20image%2020240424142854.png)
 
 - The sample is injected into the column.
 - It is vaporised and carried through the stationary phase using the inert-gas mobile phase.
