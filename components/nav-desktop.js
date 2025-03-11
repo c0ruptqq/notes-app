@@ -75,7 +75,7 @@ export default function NavDesktop() {
 
   return (
     <div ref={ref} className="hidden xl:block z-[999]">
-      <div className={`h-screen bg-white ${!isActive ? 'dark:bg-black bg-white' : 'bg-white/25 dark:bg-black/25 backdrop-blur-sm'} absolute top-0 bottom-0 border-r-1`}>
+      <div className={`h-screen bg-white ${!isActive ? 'dark:bg-black bg-white' : 'bg-white/25 dark:bg-black/25 backdrop-blur-sm'} absolute top-0 bottom-0 border-r-1 overflow-y-scroll`}>
         <div className="mt-14" >
           <div className="transition ease-in-out delay-150">
             {!isActive
